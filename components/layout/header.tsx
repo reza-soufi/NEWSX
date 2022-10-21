@@ -59,8 +59,8 @@ const Header = () => {
                                     </Link>
                                 </li>
                                 <li className="flex">
-                                    <Link href="signin">
-                                        <a className="nav-link" href="#">
+                                    <Link href="/signin">
+                                        <a className="nav-link">
                                             <i className="material-icons mr-2 text-base opacity-60">view_carousel</i>
                                             <span>sign in</span>
                                         </a>

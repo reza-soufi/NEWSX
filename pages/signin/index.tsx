@@ -1,12 +1,11 @@
 import React from 'react';
-import Head from "next/head";
 import Link from "next/link";
 
 const Signin = () => {
     return (
             <div className="container mx-auto flex flex-col items-center">
                 <form className="shadow-lg w-80 p-4 flex flex-col bg-white rounded-lg">
-                    <input type="text" placeholder="Email or Phone Number"
+                    <input type="text" placeholder="Email"
                            className="mb-3 py-3 px-4 border border-gray-400 focus:outline-none rounded-md focus:ring-1 ring-cyan-500"/>
                     <input type="text" placeholder="Pasword"
                            className="mb-3 py-3 px-4 border border-gray-400 focus:outline-none rounded-md focus:ring-1 ring-cyan-500"/>

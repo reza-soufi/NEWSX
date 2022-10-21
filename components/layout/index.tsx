@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {FC} from 'react';
 import Header from "./header";
 
-// @ts-ignore
-const Layout = ({children}) => {
+interface Props {
+    children: any;
+}
+
+const Layout:FC<Props> = ({children}) => {
     return (
         <>
             <Header />
