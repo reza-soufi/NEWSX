@@ -206,7 +206,7 @@ const Signup = () => {
                     </div>
                 </div>
                 <div className="flex justify-center items-center mt-6">
-                  <span className="ml-2">You have an account?
+                  <span className="ml-2 text-red-500">You have an account?
                     <Link href="/signin">
                         <a className="text-xs ml-2 text-blue-500 font-semibold">Login here</a>
                     </Link>
